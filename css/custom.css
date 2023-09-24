@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 'Roboto', sans-serif;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.heading {
+    width: 630px;
+    min-height: 50px;
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.box {
+    width: 600px;
+    min-height: 500px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-color: black;
+    padding: 15px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+#item {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 2px grey;
+    font-weight: bold;
+    display: block;
+}
+#to-do-box {
+    margin-top: 20px;
+    list-style: none;
+}
+
+#to-do-box li{
+    background-color:  aquamarine;
+    color: black;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    user-select: none;
+}
+
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: black;
+    background-color: grey !important;
+}
