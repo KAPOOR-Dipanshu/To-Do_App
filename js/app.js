@@ -32,3 +32,14 @@ const addToDo = (item) => {
     )
     toDoBox.appendChild(listItem)
 }
+
+const toggleSwitch = document.querySelector('#toggle-switch');
+    toggleSwitch.addEventListener('change', function() {
+      if (this.checked) {
+        // Enable light mode
+        document.body.classList.add('light-mode');
+      }
+      else{
+        document.body.classList.remove('light-mode');
+      }
+    });
