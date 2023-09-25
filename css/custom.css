@@ -115,7 +115,7 @@ main {
     transition: 0.1s;
   }
   .toggle input[type="checkbox"]:checked + label {
-    background-color: #2196F3;
+    background-color: #73f54c;
   }
   .toggle input[type="checkbox"]:checked + label:after {
     left: calc(100% - 2px);
